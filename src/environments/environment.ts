@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:4200/assets/data/'
+  apiUrl: 'https://pengw00.github.io/angular-ngrx/src/assets/data/'
 };
 
 /*

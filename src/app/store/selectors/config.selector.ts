@@ -1,5 +1,4 @@
 import { createSelector } from '@ngrx/store';
-
 import { IAppState } from '../state/app.state';
 import { IConfigState } from '../state/config.state';
 //it is data transformation in selector, so just return slice of the store

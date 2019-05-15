@@ -3,10 +3,10 @@ import { UserActions } from '../actions/user.actions';
 import {initialUserState, IUserState } from '../state/user.state';
 import { ActionsSubject } from '@ngrx/store';
 
-export const userReducers = (
+export function userReducers(
     state = initialUserState,
     action: UserActions
-): IUserState =>{
+){
     switch(action.type) {
         case EUserActions.GetUsersSuccess: {
             return {
