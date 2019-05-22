@@ -9,7 +9,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class ConfigService {
-  configUrl = `${environment.apiUrl}config.json`;
+  configUrl = `${environment.apiUrl}config`;
   constructor(private _http: HttpClient) { }
 
   getConfig(): Observable<IConfig> {

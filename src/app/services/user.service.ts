@@ -7,7 +7,7 @@ import { IUserHttp } from '../models/http-models/user-http.interface';
 
 @Injectable()
 export class UserService {
-  usersUrl = `${environment.apiUrl}users.json`;
+  usersUrl = `${environment.apiUrl}users`;
 
   constructor(private _http: HttpClient) { }
 

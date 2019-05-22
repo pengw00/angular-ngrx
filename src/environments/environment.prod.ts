@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://pengw00.github.io/dummy_json_data/'
+  apiUrl: 'https://blooming-brushlands-29652.herokuapp.com/'
 };
